@@ -59,8 +59,9 @@ python -m installer dist/*.whl
 
 ```bash
 git clone git@github.com:maoist2009/TlsFragment.git
-pip install -r requirements.txt
-python server.py
+pip install poetry
+poetry init
+python run.py
 ```
 
 也可以编译后开机自启动：
